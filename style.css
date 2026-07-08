@@ -1,0 +1,47 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* --- Sticky banner --- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #ffffff;
+  border-bottom: 1px solid #ddd;
+  padding: 0 2rem;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header nav { display: flex; gap: 1.5rem; }
+.site-header nav a {
+  font-size: 14px;
+  color: #555;
+  text-decoration: none;
+}
+.site-header nav a:hover { color: #111; }
+
+/* --- Three-column grid with dividers --- */
+.page-grid {
+  display: grid;
+  grid-template-columns: 200px 1px 1fr 1px 200px;
+  min-height: calc(100vh - 56px);
+}
+
+.margin-left,
+.margin-right {
+  background: #f5f5f2;   /* ← your margin color */
+  padding: 2rem 1.25rem;
+}
+.margin-left  { text-align: right; }
+.margin-right { text-align: left; }
+
+.divider {
+  background: #d0d0cc;   /* ← divider color */
+  width: 1px;
+}
+
+.main-content {
+  background: #ffffff;   /* ← main content color */
+  padding: 2.5rem 2rem;
+}
