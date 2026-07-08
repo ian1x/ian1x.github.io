@@ -3,11 +3,11 @@ body {
 }
 
 p {
-  color: red;
-  background-color: aliceblue;
+  color: white;
+  background-color:rgb(173, 139, 86);
   width: 60%;
-  border-top: 1px none black;
-  border-right: 1px solid black;
-  border-bottom: 1px solid black;
-  border-left: 1px solid black;
+  border-top: 5px none black;
+  border-right: 5px solid black;
+  border-bottom: 5px solid black;
+  border-left: 5px solid black;
 }
