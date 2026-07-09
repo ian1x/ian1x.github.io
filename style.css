@@ -12,6 +12,8 @@ center.block {
   border-left: 5px solid black;
   padding-left: 5%;
   padding-right: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
   outline: 10px solid #835208;
 }
 
