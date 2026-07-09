@@ -3,6 +3,7 @@ body {
 }
 
 center.block {
+  text-align: center;
   color: white;
   background-color:rgb(173, 139, 86);
   width: 40%;
