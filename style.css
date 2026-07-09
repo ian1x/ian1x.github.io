@@ -14,3 +14,8 @@ p {
   padding-right: 5%;
   outline: 10px solid #835208;
 }
+
+a.section {
+  padding-left: 30px;
+  padding-right: 30px;
+}
